@@ -20,7 +20,20 @@ layout: null
           {% if post.subtitle %}{{ post.subtitle | strip_html | xml_escape }} - {% endif %}
           {{ post.content | strip_html | xml_escape | truncatewords: excerpt_length }}
         </description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <pubDate>{{ post.date | date: "%d %B %Y %H:%M:%S %z"
+        | replace: "January", "Ocak"
+        | replace: "February", "Şubat"
+        | replace: "March", "Mart"
+        | replace: "April", "Nisan"
+        | replace: "May", "Mayıs"
+        | replace: "June", "Haziran"
+        | replace: "July", "Temmuz"
+        | replace: "August", "Ağustos"
+        | replace: "September", "Eylül"
+        | replace: "October", "Ekim"
+        | replace: "November", "Kasım"
+        | replace: "December", "Aralık" }}</pubDate>
+
         <link>{{ post.url | absolute_url }}</link>
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
       </item>
