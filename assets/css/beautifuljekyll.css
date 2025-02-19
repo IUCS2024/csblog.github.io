@@ -173,14 +173,13 @@ img {
   padding-bottom: 0;
 }
 
+/* 🌟 Navbar LOGO (IUCS Blog) */
 .navbar-custom .navbar-brand {
-  font-size: 1.65rem; /* Logo yazı boyutunu küçült */
-  padding-top: 0.3rem; /* Üst boşluğu azalt */
-  padding-bottom: 0.3rem; /* Alt boşluğu azalt */
-  padding-left: 10px; /* Varsayılan sol boşluğu azalt */
-  margin-left: 10px; /* Sol tarafa çok yaslanmışsa hafif ortaya çek */
+  font-size: 2rem; /* Makul büyüklükte logo yazısı */
+  font-weight: bold;
+  padding: 0.4rem 1rem; /* Üst-alt boşluk azaltıldı */
+  margin-left: 10px; /* Hafif sağa çek */
   transform: translateX(5px); /* Biraz sağa kaydır */
-  font-size: 2.5rem;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -214,21 +213,47 @@ img {
   letter-spacing: 0.0625rem;
 }
 
+/* 🌟 Navbar İçindeki Linkler (Genel) */
 .navbar-custom .navbar-nav .nav-link {
-  line-height: 1.25rem;
-  padding-top: 0.9375rem;
-  padding-bottom: 0.9375rem;
+  line-height: 1.5rem;
+  padding: 0.5rem 1rem; /* Dikey ve yatay boşluklar dengelendi */
+  font-size: 1rem !important;
+  font-weight: 600;
+  color: var(--navbar-text-col);
+  transition: color 0.3s ease-in-out;
 }
 
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-nav .nav-link {
+/* 🌟 Hakkımızda Yazısı (Navbar İçindeki) */
+.navbar-custom .navbar-nav .nav-link[href="/csblog.github.io/aboutme"] {
+  font-size: 1.25rem !important; /* Hakkımızda biraz büyük ama makul */
   font-weight: bold;
-  color: var(--navbar-text-col);
+  padding: 0.5rem 1rem;
 }
-.navbar-custom .navbar-nav .nav-link {
-  padding-top: 0.3rem !important; /* Üst boşluğu azalt */
-  padding-bottom: 0.3rem !important; /* Alt boşluğu azalt */
-  font-size: 1rem !important; /* Eğer yazı boyutu fazla büyükse küçült */
+
+/* 🌟 Navbar Hover Efektleri */
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: var(--hover-col);
+}
+
+/* 🌟 Mobil İçin Navbar Optimizasyonu */
+@media (max-width: 1199px) {
+  .navbar-custom {
+    padding: 0.5rem;
+  }
+  
+  .navbar-custom .navbar-nav {
+    padding: 0.5rem 0;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link {
+    padding: 0.675rem 0 0.675rem 1rem;
+  }
+}
+
+/* 🌟 Navbar Menü Açıldığında Arka Plan Efekti */
+.navbar-custom .navbar-toggler[aria-expanded="true"] {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .navbar-toggler {
