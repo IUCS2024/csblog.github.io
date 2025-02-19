@@ -178,7 +178,7 @@ img {
   padding-left: 10px; /* Varsayılan sol boşluğu azalt */
   margin-left: 10px; /* Sol tarafa çok yaslanmışsa hafif ortaya çek */
   transform: translateX(5px); /* Biraz sağa kaydır */
-  font-size: 1.125rem;
+  font-size: 2.5rem;
 }
 
 .navbar-custom .navbar-brand-logo {
