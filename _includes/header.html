@@ -35,13 +35,13 @@
           
           {% if include.type == "post" %} 
             {% if page.author %}
-              By <strong>{{ page.author | strip_html }}</strong><br>
+              <strong>{{ page.author | strip_html }}</strong> tarafından<br>
             {% endif%}
-            <span class="post-meta">Posted on {{ page.date | date: date_format }}</span>
+            <span class="post-meta">{{ page.date | date: date_format }} tarihinde paylaşıldı</span>
             {% if page.last-updated %}
               <span class="post-meta">
                 <span class="d-none d-md-inline middot">&middot;</span>
-                Last updated {{ page.last-updated | date: date_format }}
+                {{ page.last-updated | date: date_format }} tarihinde güncellendi
               </span>
             {% endif %}
             {% if page.readtime %}
