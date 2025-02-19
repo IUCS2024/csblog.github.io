@@ -25,7 +25,7 @@ pre .lineno {
   border: 1px solid #333333;
 }
 /* Bildirim Kutusu */
-.notification-box {
+.box-note {
   background: #2A2D34 !important; /* Koyu gri-mavi */
   color: #E0E0E0 !important;
   border-left: 4px solid #4DA8FF; /* Mavi kenarlık */
@@ -34,7 +34,7 @@ pre .lineno {
 }
 
 /* Uyarı Kutusu */
-.warning-box {
+.box-warning {
   background: #3A3217 !important; /* Koyu sarımsı kahverengi */
   color: #FFD166 !important; /* Sarı metin */
   border-left: 4px solid #FFB600; /* Turuncu kenarlık */
@@ -43,7 +43,7 @@ pre .lineno {
 }
 
 /* Hata Kutusu */
-.error-box {
+.box-error {
   background: #3A1E1E !important; /* Koyu kırmızımsı */
   color: #E06C75 !important; /* Kırmızı metin */
   border-left: 4px solid #D47D7D; /* Açık kırmızı kenarlık */
