@@ -250,11 +250,22 @@ img {
     padding: 0.675rem 0 0.675rem 1rem;
   }
 }
+/* -- Masaüstü (768px ve üstü) için "Hakkımızda" linki -- */
+@media (min-width: 768px) {
+  .navbar-custom .navbar-nav .nav-link[href="/csblog.github.io/aboutme"] {
+    font-size: 1.25rem !important; /* Hakkımızda yazısı için boyut */
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin-left: -10px !important; /* Sola kaydırmak için ekleme */
+  }
+}
+
+/* -- Mobil (767px ve altı) için varsayılan boyut -- */
 @media (max-width: 767px) {
-  .navbar-custom .navbar-brand {
-    font-size: 1.5rem; /* Desktop'taki 2rem yerine daha küçük bir boyut */
-    margin-left: 0;   /* Varsayılan margin'i sıfırlayabilir veya ihtiyaca göre değiştirebilirsiniz */
-    transform: translateX(-5px); /* Logoyu hafif sola kaydırır */
+  .navbar-custom .navbar-nav .nav-link[href="/csblog.github.io/aboutme"] {
+    font-size: 1rem !important;  /* Diğer linklerle aynı boyut */
+    margin-left: 0 !important;   /* Negatif margin'i kaldır */
+    font-weight: 600;           /* Diğer linklerle aynı ya da isteğe göre */
   }
 }
 /* 🌟 Navbar Menü Açıldığında Arka Plan Efekti */
