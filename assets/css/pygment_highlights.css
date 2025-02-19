@@ -1,8 +1,8 @@
-/* .highlight  { background: #ffffff; } Dean commented out */
-/* .highlight pre { background-color: #fff; font-size: 16px } */
-.highlight .c { color: #6A737D; font-style: italic } /* Comment */
+.highlight  { background: #181818 !important; color: #E0E0E0 !important } Dean commented out */
+.highlight pre { background-color: #181818 !important; color: #E0E0E0 !important; font-size: 16px } */
+.highlight .c { color: #6A737D !important; font-style: italic } /* Comment */
 .highlight .err { color: #E06C75; background-color: #e3d2d2 } /* Error */
-.highlight .k { font-weight: bold } /* Keyword */
+.highlight .k { color: #C678DD !important; font-weight: bold } /* Keyword */
 .highlight .o { font-weight: bold } /* Operator */
 .highlight .cm { color: #6A737D; font-style: italic } /* Comment.Multiline */
 .highlight .cp { color: #9DA5B4; font-weight: bold } /* Comment.Preproc */
@@ -25,18 +25,18 @@
 .highlight .kp { font-weight: bold } /* Keyword.Pseudo */
 .highlight .kr { font-weight: bold } /* Keyword.Reserved */
 .highlight .kt { color: #C678DD	; font-weight: bold } /* Keyword.Type */
-.highlight .m { color: #56B6C2 } /* Literal.Number */
-.highlight .s { color: #98C379 } /* Literal.String */
+.highlight .m { color: #D19A66 !important } /* Literal.Number */
+.highlight .s { color: #98C379 !important} /* Literal.String */
 .highlight .na { color: #61AFEF } /* Name.Attribute */
 .highlight .nb { color: #82AAFF } /* Name.Builtin */
 .highlight .nc { color: #C678DD	; font-weight: bold } /* Name.Class */
 .highlight .no { color: #61AFEF } /* Name.Constant */
 .highlight .ni { color: #D55FDE	 } /* Name.Entity */
 .highlight .ne { color: #E06C75; font-weight: bold } /* Name.Exception */
-.highlight .nf { color: #E06C75; font-weight: bold } /* Name.Function */
+.highlight .nf { color: #61AFEF !important; font-weight: bold } /* Name.Function */
 .highlight .nn { color: #B6BDC5 } /* Name.Namespace */
 .highlight .nt { color: #61AFEF } /* Name.Tag */
-.highlight .nv { color: #61AFEF } /* Name.Variable */
+.highlight .nv { color: #E06C75 !important} /* Name.Variable */
 .highlight .ow { font-weight: bold } /* Operator.Word */
 .highlight .w { color: #9DA5B4 } /* Text.Whitespace */
 .highlight .mf { color: #56B6C2 } /* Literal.Number.Float */
