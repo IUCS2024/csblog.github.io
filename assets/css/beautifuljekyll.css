@@ -221,14 +221,13 @@ img {
   font-weight: 600;
   color: var(--navbar-text-col);
   transition: color 0.3s ease-in-out;
-  margin-left: -5px;
 }
 /* 🌟 Hakkımızda Yazısı (Navbar İçindeki) */
 .navbar-custom .navbar-nav .nav-link[href="/csblog.github.io/aboutme"] {
   font-size: 1.25rem !important; /* Hakkımızda yazısı için boyut */
   font-weight: bold;
   padding: 0.5rem 1rem;
-  margin-left: -13px; /* Sola kaydırmak için ekleme */
+  margin-left: -13px !important; /* Sola kaydırmak için ekleme */
 }
 
 /* 🌟 Navbar Hover Efektleri */
@@ -237,10 +236,10 @@ img {
   color: var(--hover-col);
 }
 #nav-search-link {
-  margin-left: -13px; /* İstediğiniz değeri ayarlayın */
+  margin-left: -13px !important; /* İstediğiniz değeri ayarlayın */
 }
 .navbar-custom li.nav-item {
-  margin-left: -13px; /* İstediğiniz değeri ayarlayın */
+  margin-left: -13px !important; /* İstediğiniz değeri ayarlayın */
 }
 
 /* 🌟 Mobil İçin Navbar Optimizasyonu */
