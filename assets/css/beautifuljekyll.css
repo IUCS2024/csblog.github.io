@@ -827,38 +827,56 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   background-color: var(--hover-col);
 }
 
-/* --- Tables --- */
+/* --- Tables (Dark Mode) --- */
 
 table {
   padding: 0;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #181818; /* Koyu arka plan */
+  color: #E0E0E0; /* Açık metin */
 }
+
+/* Satırlar */
 table tr {
-  border-top: 1px solid #cccccc;
-  background-color: var(--page-col);
+  border-top: 1px solid #444444; /* Daha koyu çizgiler */
+  background-color: #202020; /* Koyu gri */
   margin: 0;
   padding: 0;
 }
+
+/* Alternatif arka plan (Zebra Deseni) */
 table tr:nth-child(2n) {
-  background-color: #f8f8f8;
+  background-color: #242424; /* Hafif daha açık gri */
 }
+
+/* Hücreler */
 table tr th,
 table tr td {
-  border: 1px solid #cccccc;
+  border: 1px solid #444444; /* Çerçeve rengi */
   text-align: left;
   margin: 0;
   padding: 0.375rem 0.8125rem;
 }
+
+/* Başlık Satırı */
 table tr th {
   font-weight: bold;
+  background-color: #333333; /* Başlıkları vurgulamak için daha koyu */
+  color: #FFFFFF; /* Beyaz metin */
 }
-table tr th :first-child,
-table tr td :first-child {
+
+/* İlk ve Son Hücreler İçin Düzenlemeler */
+table tr th:first-child,
+table tr td:first-child {
   margin-top: 0;
 }
-table tr th :last-child,
-table tr td :last-child {
+table tr th:last-child,
+table tr td:last-child {
   margin-bottom: 0;
 }
+
 
 /* --- Code block/* --- Koyu Tema için Code ve Pre Blokları --- */
 
