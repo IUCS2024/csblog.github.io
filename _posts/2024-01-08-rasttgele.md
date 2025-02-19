@@ -24,8 +24,4 @@ Python ile veri analizi yaparken **Pandas** ve **Matplotlib** kullanırız.
 **Kod Örneği:**
 ```python
 import pandas as pd
-
-data = {"İsim": ["Ali", "Ayşe", "Can"], "Yaş": [25, 30, 35], "Maaş": [5000, 6000, 7000]}
-df = pd.DataFrame(data)
-
-print(df)
+def__init__(self):
