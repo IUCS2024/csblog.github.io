@@ -50,8 +50,13 @@ layout: page
         <span><strong>{{ post.author | strip_html }}</strong> tarafından</span>
       {% endif %}
       <p class="post-meta">
+        {% comment %}
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-        {{ post.date | date: date_format }} Tarihinde Paylaşıldı
+        {{ post.date | date: date_format }} tarihinde paylaşıldı
+        {% endcomment %}
+        {% assign date_format = "%d %B %Y" %}
+        {{ post.date | date: date_format }} tarihinde paylaşıldı
+
       </p>
 
       {% if thumbnail != "" %}
