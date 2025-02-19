@@ -178,7 +178,7 @@ img {
   font-size: 2rem; /* Makul büyüklükte logo yazısı */
   font-weight: bold;
   padding: 0.4rem 1rem; /* Üst-alt boşluk azaltıldı */
-  margin-left: 10px; /* Hafif sağa çek */
+  margin-left: 6px; /* Hafif sağa çek */
   transform: translateX(5px); /* Biraz sağa kaydır */
 }
 
@@ -223,23 +223,22 @@ img {
   transition: color 0.3s ease-in-out;
   margin-left: -5px;
 }
-
 /* 🌟 Hakkımızda Yazısı (Navbar İçindeki) */
 .navbar-custom .navbar-nav .nav-link[href="/csblog.github.io/aboutme"] {
   font-size: 1.25rem !important; /* Hakkımızda yazısı için boyut */
   font-weight: bold;
   padding: 0.5rem 1rem;
-  margin-left: -5px; /* Sola kaydırmak için ekleme */
+  margin-left: -10px; /* Sola kaydırmak için ekleme */
 }
-.navbar-custom .search-bar {
-  margin-left: -5px; /* İstediğiniz değeri ayarlayın */
-}
+
 /* 🌟 Navbar Hover Efektleri */
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-nav .nav-link:hover {
   color: var(--hover-col);
 }
-
+#nav-search-link {
+  margin-left: -10px; /* İstediğiniz değeri ayarlayın */
+}
 /* 🌟 Mobil İçin Navbar Optimizasyonu */
 @media (max-width: 1199px) {
   .navbar-custom {
