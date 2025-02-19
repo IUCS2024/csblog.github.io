@@ -235,7 +235,11 @@ img {
 .navbar-custom .navbar-nav .nav-link:hover {
   color: var(--hover-col);
 }
-
+@media (min-width: 992px) {
+  .navbar-custom .navbar-nav.ml-auto .nav-item:last-child {
+    margin-right: 1rem; /* veya 2rem, isteğe göre */
+  }
+}
 /* 🌟 Mobil İçin Navbar Optimizasyonu */
 @media (max-width: 1199px) {
   .navbar-custom {
