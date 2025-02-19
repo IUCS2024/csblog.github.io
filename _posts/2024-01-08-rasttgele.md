@@ -1,10 +1,3 @@
-
----
-
-## **📌 3️⃣ - Python ile Veri Analizi**
-Bu dosyada **tablolar** var.  
-
-```markdown
 ---
 layout: post
 title: Python ile Veri Analizi
