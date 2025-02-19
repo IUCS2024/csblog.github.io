@@ -47,7 +47,7 @@ layout: page
       </a>
 
       {% if post.author %}
-        <span>By <strong>{{ post.author | strip_html }}</strong></span>
+        <span><strong>{{ post.author | strip_html }}</strong> tarafından</span>
       {% endif %}
       <p class="post-meta">
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
@@ -83,7 +83,7 @@ layout: page
 
       {% if site.feed_show_tags != false and post.tags.size > 0 %}
       <div class="blog-tags">
-        <span>Tags:</span>
+        <span>Etiketler</span>
         <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
         <ul class="d-inline list-inline" role="list">
           {% for tag in post.tags %}
@@ -106,14 +106,14 @@ layout: page
   <li class="page-item previous">
     <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}">
       <i class="fas fa-arrow-left" alt="Newer Posts"></i>
-      <span class="d-none d-sm-inline-block">Newer Posts</span>
+      <span class="d-none d-sm-inline-block">Sonraki Yazı Posts</span>
     </a>
   </li>
   {% endif %}
   {% if paginator.next_page %}
   <li class="page-item next">
     <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}">
-      <span class="d-none d-sm-inline-block">Older Posts</span>
+      <span class="d-none d-sm-inline-block">Önceki Yazı</span>
       <i class="fas fa-arrow-right" alt="Older Posts"></i>
     </a>
   </li>
