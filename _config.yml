@@ -258,7 +258,7 @@ mobile-theme-col: "#1E1E1E"
 ################
 
 # Ruby Date Format to show dates of posts
-date_format: "%-d %B %Y"
+date_format: "%d %B %Y"
 
 # Facebook App ID
 #fb_app_id: ""
