@@ -17,3 +17,4 @@ Linux terminalini kullanarak sisteminizi yönetebilirsiniz.
 ls -la    # Tüm dosyaları detaylı göster
 cd /home  # Dizin değiştir
 rm -rf    # Dosya/silme komutu (dikkatli olun!)
+```
