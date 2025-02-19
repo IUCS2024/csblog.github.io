@@ -951,6 +951,40 @@ pre {
 .lineno::selection, .lineno::-moz-selection {
   background: none;
 }
+/* --- Markdown Tablolarını Düzelt --- */
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #181818; /* Koyu arka plan */
+  color: #E0E0E0; /* Açık metin */
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  border: 1px solid #444444 !important; /* Çerçeve rengi */
+  text-align: left;
+  padding: 0.375rem 0.8125rem;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+  background-color: #333333; /* Başlıkları vurgulamak için daha koyu */
+  color: #FFFFFF; /* Beyaz metin */
+}
+
+.markdown-body table tr:nth-child(even) {
+  background-color: #242424; /* Alternatif arkaplan */
+}
+
+/* --- Kod Blokları İçindeki Tabloları Düzenle --- */
+.highlight table,
+.highlight tr,
+.highlight td {
+  border: 1px solid #444444 !important; /* Kod içindeki tabloların görünmesini sağla */
+  background: #202020 !important; /* Arkaplan rengi */
+  padding: 0.375rem 0.8125rem;
+}
 
 /* Fix table border github gist snippets */
 
