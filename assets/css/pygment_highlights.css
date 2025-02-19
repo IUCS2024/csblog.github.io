@@ -24,33 +24,6 @@ pre .lineno {
   border-radius: 5px;
   border: 1px solid #333333;
 }
-/* Bildirim Kutusu */
-.box-note {
-  background: #2A2D34 !important; /* Koyu gri-mavi */
-  color: #E0E0E0 !important;
-  border-left: 4px solid #4DA8FF; /* Mavi kenarlık */
-  padding: 12px;
-  border-radius: 5px;
-}
-
-/* Uyarı Kutusu */
-.box-warning {
-  background: #3A3217 !important; /* Koyu sarımsı kahverengi */
-  color: #FFD166 !important; /* Sarı metin */
-  border-left: 4px solid #FFB600; /* Turuncu kenarlık */
-  padding: 12px;
-  border-radius: 5px;
-}
-
-/* Hata Kutusu */
-.box-error {
-  background: #3A1E1E !important; /* Koyu kırmızımsı */
-  color: #E06C75 !important; /* Kırmızı metin */
-  border-left: 4px solid #D47D7D; /* Açık kırmızı kenarlık */
-  padding: 12px;
-  border-radius: 5px;
-}
-
 .highlight .c { color: #6A737D !important; font-style: italic } /* Comment */
 .highlight .err { color: #E06C75; background-color: #e3d2d2 } /* Error */
 .highlight .k { color: #C678DD !important; font-weight: bold } /* Keyword */
