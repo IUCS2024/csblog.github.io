@@ -22,7 +22,7 @@ pre .lineno {
   color: #a60019 !important; /* Açık metin */
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #333333;
+  border: 0.5px solid #333333;
 }
 .highlight .c { color: #6A737D !important; font-style: italic } /* Comment */
 .highlight .err { color: #E06C75; background-color: #e3d2d2 } /* Error */
