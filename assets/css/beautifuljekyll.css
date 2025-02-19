@@ -175,6 +175,9 @@ img {
   line-height: 1.5;
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
+  padding-left: 10px; /* Varsayılan sol boşluğu azalt */
+  margin-left: 10px; /* Sol tarafa çok yaslanmışsa hafif ortaya çek */
+  transform: translateX(5px); /* Biraz sağa kaydır */
   font-size: 1.125rem;
 }
 
