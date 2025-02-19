@@ -1,16 +1,24 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Hakkımızda
+subtitle: İstanbul Üniversitesi Fen Fakültesi Bilgisayar Bilimleri Blogu
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+### **Biz Kimiz?**
+İstanbul Üniversitesi Fen Fakültesi **Bilgisayar Bilimleri Bölümü** öğrencileri olarak teknoloji, yazılım geliştirme, veri bilimi, yapay zeka ve bilgisayar bilimleriyle ilgili konularda içerikler üretiyoruz. Amacımız, **bilgi paylaşımını teşvik etmek, deneyimlerimizi aktarmak ve birlikte öğrenmek.**  
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### **Neden Bu Blog?**
+Bilgisayar bilimleri **sürekli gelişen bir alan** ve biz de öğrendiklerimizi paylaşarak hem kendimizi geliştiriyor hem de ilgililere fayda sağlamak istiyoruz. **Burada şunları bulabilirsiniz:**
+- **Teknoloji trendleri** ve yenilikler üzerine yazılar  
+- **Akademik konular** ve ders notları  
+- **Projelerimiz ve deneyimlerimiz**  
+- **Kodlama, algoritmalar ve problem çözümleri**  
+- **Etkinlik duyuruları ve bölümle ilgili haberler**  
 
-What else do you need?
+### **Katkıda Bulunmak İster misiniz?**
+Blogumuz **kolektif bir öğrenci topluluğu tarafından yürütülmektedir.** Eğer siz de bilgisayar bilimleriyle ilgili içerikler üretmek, projelerinizi paylaşmak veya blog ekibimize katılmak isterseniz, bizimle iletişime geçebilirsiniz.  
 
-### My story
+**Bilgi paylaştıkça çoğalır!** Bizimle birlikte bilgisayar bilimleri dünyasını keşfetmeye hazır mısınız?  
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+*Scienta est potentia* – Bilgi güçtür.
+
