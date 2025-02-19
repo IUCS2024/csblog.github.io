@@ -17,6 +17,13 @@ pre .lineno {
   background: #1E1E1E !important; /* Biraz daha koyu arka plan */
   padding-right: 10px;
 }
+.language-plaintext.highlighter-rouge {
+  background: #1E1E1E !important; /* Daha koyu arka plan */
+  color: #E0E0E0 !important; /* Açık metin */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #333333;
+}
 .highlight .c { color: #6A737D !important; font-style: italic } /* Comment */
 .highlight .err { color: #E06C75; background-color: #e3d2d2 } /* Error */
 .highlight .k { color: #C678DD !important; font-weight: bold } /* Keyword */
