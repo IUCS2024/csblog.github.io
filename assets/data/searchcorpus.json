@@ -8,7 +8,8 @@ layout: null
 "desc"     : "{% if post.title != "" %}{{ post.title | strip_html | escape }}{% else %}{{ post.excerpt | strip_html | escape | strip }}{%endif%}", 
 "category" : "{{ post.tags | join: ', ' }}", 
 "url"      : "{{ site.baseurl }}{{ post.url | escape }}", 
-"date"     : "{{ post.date | date: "%B %e, %Y" | default: "January 1, 1970" }}" 
+"date"     : "{{ post.date | date: "%d %B %Y" | default: "1 Ocak 1970" }}"
+
 }, 
 {% endfor %} 
 {% for page in site.html_pages %}{% if page.title != "{title}" and page.title != "404 - Page not found" %} 
