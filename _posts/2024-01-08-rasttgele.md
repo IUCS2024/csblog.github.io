@@ -12,12 +12,14 @@ date: 2024-01-08
 
 Python ile veri analizi yaparken **Pandas** ve **Matplotlib** kullanırız.
 
-### **📌 Pandas Veri Çerçevesi Örneği**
+### 📌 Pandas Veri Çerçevesi Örneği
+
 | İsim  | Yaş | Maaş  |
 |-------|----|-------|
 | Ali   | 25 | 5000₺ |
 | Ayşe  | 30 | 6000₺ |
 | Can   | 35 | 7000₺ |
+
 
 **Kod Örneği:**
 ```python
