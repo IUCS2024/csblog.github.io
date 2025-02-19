@@ -28,6 +28,7 @@ title: 'Etiketler'
                 <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
                 <div class="entry-date">
                     <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
+                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: "%d %B %Y" }}</time>
                 </div>
             </div>
         {%- endfor -%}
