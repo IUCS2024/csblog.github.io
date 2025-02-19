@@ -28,3 +28,4 @@ data = {"İsim": ["Ali", "Ayşe", "Can"], "Yaş": [25, 30, 35], "Maaş": [5000, 
 df = pd.DataFrame(data)
 
 print(df)
+```
