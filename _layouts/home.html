@@ -50,8 +50,9 @@ layout: page
         <span><strong>{{ post.author | strip_html }}</strong> tarafından</span>
       {% endif %}
       <p class="post-meta">
-        {% assign date_format = "%d %B %Y" %}
+        {% assign date_format = site.date_format | default: "%d %B %Y" %}
         {{ post.date | date: date_format }} tarihinde paylaşıldı
+
 
       </p>
 
