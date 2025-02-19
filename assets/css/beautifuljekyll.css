@@ -259,7 +259,8 @@ img {
     margin-left: -10px !important; /* Sola kaydırmak için ekleme */
   }
 }
-
+.navbar-custom .navbar-nav.ml-auto {
+    margin-right: 1.5rem; 
 /* -- Mobil (767px ve altı) için varsayılan boyut -- */
 @media (max-width: 767px) {
   .navbar-custom .navbar-nav .nav-link[href="/csblog.github.io/aboutme"] {
@@ -272,8 +273,7 @@ img {
 .navbar-custom .navbar-toggler[aria-expanded="true"] {
   background-color: rgba(0, 0, 0, 0.2);
 }
-.navbar-custom .navbar-nav.ml-auto {
-    margin-right: 1.5rem; 
+
 .navbar-toggler {
   font-size: 1rem;
   margin: 0.5rem 0;
