@@ -272,7 +272,8 @@ img {
 .navbar-custom .navbar-toggler[aria-expanded="true"] {
   background-color: rgba(0, 0, 0, 0.2);
 }
-
+.navbar-custom .navbar-nav.ml-auto {
+    margin-right: 1.5rem; 
 .navbar-toggler {
   font-size: 1rem;
   margin: 0.5rem 0;
