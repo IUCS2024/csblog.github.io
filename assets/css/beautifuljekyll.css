@@ -227,7 +227,7 @@ img {
   font-size: 1.25rem !important; /* Hakkımızda yazısı için boyut */
   font-weight: bold;
   padding: 0.5rem 1rem;
-  margin-left: 10px !important; /* Sola kaydırmak için ekleme */
+  margin-left: -10px !important; /* Sola kaydırmak için ekleme */
 }
 
 /* 🌟 Navbar Hover Efektleri */
@@ -236,10 +236,10 @@ img {
   color: var(--hover-col);
 }
 #nav-search-icon {
-  margin-left: 10px !important; /* İstediğiniz değeri ayarlayın */
+  margin-left: -10px !important; /* İstediğiniz değeri ayarlayın */
 }
 .navbar-custom #nav-search-link {
-  margin-left: 10px !important; /* İstenilen sola kaydırma değeri */
+  margin-left: -10px !important; /* İstenilen sola kaydırma değeri */
 }
 
 /* 🌟 Mobil İçin Navbar Optimizasyonu */
