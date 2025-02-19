@@ -162,6 +162,8 @@ img {
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
   transition: padding .5s ease-in-out;
+  padding-top: 0.5rem !important; /* Navbar üst boşluğu */
+  padding-bottom: 0.5rem !important; /* Navbar alt boşluğu */
 }
 
 .navbar-custom,
@@ -172,9 +174,9 @@ img {
 }
 
 .navbar-custom .navbar-brand {
-  line-height: 1.5;
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
+  font-size: 1.65rem; /* Logo yazı boyutunu küçült */
+  padding-top: 0.3rem; /* Üst boşluğu azalt */
+  padding-bottom: 0.3rem; /* Alt boşluğu azalt */
   padding-left: 10px; /* Varsayılan sol boşluğu azalt */
   margin-left: 10px; /* Sol tarafa çok yaslanmışsa hafif ortaya çek */
   transform: translateX(5px); /* Biraz sağa kaydır */
@@ -222,6 +224,11 @@ img {
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 800;
   color: var(--navbar-text-col);
+}
+.navbar-custom .navbar-nav .nav-link {
+  padding-top: 0.3rem !important; /* Üst boşluğu azalt */
+  padding-bottom: 0.3rem !important; /* Alt boşluğu azalt */
+  font-size: 0.85rem !important; /* Eğer yazı boyutu fazla büyükse küçült */
 }
 
 .navbar-toggler {
