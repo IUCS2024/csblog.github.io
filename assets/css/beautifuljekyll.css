@@ -226,11 +226,14 @@ img {
 
 /* 🌟 Hakkımızda Yazısı (Navbar İçindeki) */
 .navbar-custom .navbar-nav .nav-link[href="/csblog.github.io/aboutme"] {
-  font-size: 1.25rem !important; /* Hakkımızda biraz büyük ama makul */
+  font-size: 1.25rem !important; /* Hakkımızda yazısı için boyut */
   font-weight: bold;
   padding: 0.5rem 1rem;
+  margin-left: -5px; /* Sola kaydırmak için ekleme */
 }
-
+.navbar-custom .search-bar {
+  margin-left: -5px; /* İstediğiniz değeri ayarlayın */
+}
 /* 🌟 Navbar Hover Efektleri */
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-nav .nav-link:hover {
@@ -251,7 +254,13 @@ img {
     padding: 0.675rem 0 0.675rem 1rem;
   }
 }
-
+@media (max-width: 767px) {
+  .navbar-custom .navbar-brand {
+    font-size: 1.5rem; /* Desktop'taki 2rem yerine daha küçük bir boyut */
+    margin-left: 0;   /* Varsayılan margin'i sıfırlayabilir veya ihtiyaca göre değiştirebilirsiniz */
+    transform: translateX(-5px); /* Logoyu hafif sola kaydırır */
+  }
+}
 /* 🌟 Navbar Menü Açıldığında Arka Plan Efekti */
 .navbar-custom .navbar-toggler[aria-expanded="true"] {
   background-color: rgba(0, 0, 0, 0.2);
