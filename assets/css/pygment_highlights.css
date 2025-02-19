@@ -1,5 +1,22 @@
-.highlight  { background: #181818 !important; color: #E0E0E0 !important } Dean commented out */
-.highlight pre { background-color: #181818 !important; color: #E0E0E0 !important; font-size: 16px } */
+/* Kod bloğunun arka planı ve metin rengi */
+.highlight  { 
+  background: #181818 !important; 
+  color: #E0E0E0 !important; 
+} 
+
+/* Kod bloğu içindeki <pre> elementinin rengi */
+.highlight pre { 
+  background-color: #181818 !important; 
+  color: #E0E0E0 !important; 
+  font-size: 16px; 
+}
+
+/* Kod satır numaralarının görünürlüğünü düzeltme */
+pre .lineno {
+  color: #5C6370 !important; /* Açık gri */
+  background: #1E1E1E !important; /* Biraz daha koyu arka plan */
+  padding-right: 10px;
+}
 .highlight .c { color: #6A737D !important; font-style: italic } /* Comment */
 .highlight .err { color: #E06C75; background-color: #e3d2d2 } /* Error */
 .highlight .k { color: #C678DD !important; font-weight: bold } /* Keyword */
