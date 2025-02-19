@@ -18,7 +18,7 @@ layout: null
 "desc"     : "{% if page.title != "" %}{{ page.title | strip_html | escape }}{% else %}{{ page.excerpt | strip_html | escape | strip }}{% endif %}", 
 "category" : "{% if page.tags %}{{ page.tags | join: ', ' }}{% else %}page{% endif %}", 
 "url"      : "{{ site.baseurl }}{{ page.url }}", 
-"date"     : "{{ page.date | date: '%B %e, %Y' | default: "January 1, 1970" }}" 
+"date"     : "{{ post.date | date: "%d %B %Y" | default: "1 Ocak 1970" }}"
 }{% unless forloop.last %},{% endunless %} 
 {% endif %}{% endfor %} 
 ]
