@@ -9,7 +9,6 @@ tags: [Python, veri analizi, pandas]
 author: Zeynep Aydın
 date: 2024-01-08
 ---
-
 Python ile veri analizi yaparken **Pandas** ve **Matplotlib** kullanırız.
 
 ### 📌 Pandas Veri Çerçevesi Örneği
@@ -24,4 +23,8 @@ Python ile veri analizi yaparken **Pandas** ve **Matplotlib** kullanırız.
 **Kod Örneği:**
 ```python
 import pandas as pd
-def__init__(self):
+
+data = {"İsim": ["Ali", "Ayşe", "Can"], "Yaş": [25, 30, 35], "Maaş": [5000, 6000, 7000]}
+df = pd.DataFrame(data)
+
+print(df)
