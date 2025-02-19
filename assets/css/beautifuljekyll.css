@@ -989,28 +989,28 @@ pre {
 .box-note {
   background-color: #2A2D34; /* Koyu gri-mavi */
   border-left-color: #4DA8FF; /* Mavi */
-  color: #E0E0E0; /* Açık gri metin */
+  color: #E0E0E0 !important; /* Açık gri metin */
 }
 
 /* Uyarı (Warning) */
 .box-warning {
   background-color: #3A3217; /* Koyu sarımsı kahverengi */
   border-left-color: #FFB600; /* Turuncu kenarlık */
-  color: #FFD166; /* Sarı metin */
+  color: #FFD166 !important; /* Sarı metin */
 }
 
 /* Hata (Error) */
 .box-error {
   background-color: #3A1E1E; /* Koyu kırmızımsı */
   border-left-color: #D47D7D; /* Açık kırmızı kenarlık */
-  color: #E06C75; /* Açık kırmızı metin */
+  color: #E06C75 !important; /* Açık kırmızı metin */
 }
 
 /* Başarı (Success) */
 .box-success {
   background-color: #1E4620; /* Koyu yeşil */
   border-left-color: #6DD17A; /* Açık yeşil kenarlık */
-  color: #A3E635; /* Açık yeşil metin */
+  color: #A3E635 !important; /* Açık yeşil metin */
 }
 
 /* --- Misc blog post styles --- */
