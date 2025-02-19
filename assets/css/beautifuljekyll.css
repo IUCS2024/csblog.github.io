@@ -221,6 +221,7 @@ img {
   font-weight: 600;
   color: var(--navbar-text-col);
   transition: color 0.3s ease-in-out;
+  margin-left: -5px;
 }
 
 /* 🌟 Hakkımızda Yazısı (Navbar İçindeki) */
