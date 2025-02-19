@@ -860,12 +860,12 @@ table tr td :last-child {
   margin-bottom: 0;
 }
 
-/* --- Code blocks --- */
+/* --- Code block/* --- Koyu Tema için Code ve Pre Blokları --- */
 
 code {
   padding: 0.125rem 0.25rem;
-  color: #c7254e;
-  background-color: #f9f2f4;
+  color: #E06C75; /* Açık kırmızımsı metin */
+  background-color: #2A2D34; /* Koyu gri-mavi */
   border-radius: 0.25rem;
 }
 
@@ -880,35 +880,47 @@ pre {
   line-height: 1.5em;
   border-radius: 0.25rem;
   padding: 0.59375rem;
+  background-color: #181818; /* Koyu arka plan */
+  color: #E0E0E0; /* Açık metin */
 }
+
+/* Kod blokları için geliştirilmiş stiller */
 .highlight pre {
   border: none;
   background: none;
   margin: 0;
 }
+
 .highlight > pre {
   background-image: linear-gradient(
-    rgba(0,0,0,0.03), rgba(0,0,0,0.03) 1.5em, rgba(0,0,0,0.02) 1.5em, rgba(0,0,0,0.02) 3em);
+    rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05) 1.5em, 
+    rgba(255, 255, 255, 0.03) 1.5em, rgba(255, 255, 255, 0.03) 3em);
   background-size: auto 3em;
   background-position-y: 0.625rem;
-  border: 1px solid rgba(0,0,0,0.1);
-  border-left: 0.4375rem solid #444;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 0.4375rem solid #4DA8FF; /* Mavi tonlu kenarlık */
 }
-.highlight > pre:not([class~="highlight"]) { /* code block with line number */
+
+/* Satır numaralı kod blokları */
+.highlight > pre:not([class~="highlight"]) {
   padding: 0;
 }
+
+/* Kod içindeki tablolar (Gereksiz çerçeveleri kaldırma) */
 .highlight table,
 .highlight tr,
-.highlight td { /* to be removed after fixing table styles */
+.highlight td {
   border: none;
   background: none;
   padding: 0;
   margin: 0;
 }
+
+/* Satır numaraları */
 .highlight pre.lineno {
-  color: rgba(0,0,0,0.3);
+  color: rgba(255, 255, 255, 0.3); /* Açık gri */
   border-radius: 0;
-  border-right: 2px solid #444;
+  border-right: 2px solid #4DA8FF; /* Mavi kenarlık */
 }
 
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
@@ -943,36 +955,44 @@ pre {
   color: #fff;
 }
 
-/* --- Notification boxes --- */
+/* --- Notification Boxes for Dark Mode --- */
 .box-note,
 .box-warning,
 .box-error,
 .box-success {
   padding: 0.9375rem 0.9375rem 0.9375rem 0.625rem;
   margin: 1.25rem 1.25rem 1.25rem 0.3125rem;
-  border: 1px solid #eee;
+  border: 1px solid #333; /* Daha koyu çerçeve */
   border-left-width: 0.3125rem;
   border-radius: 0.3125rem 0.1875rem 0.1875rem 0.3125rem;
 }
 
+/* Bilgilendirme (Note) */
 .box-note {
-  background-color: #eee;
-  border-left-color: #2980b9;
+  background-color: #2A2D34; /* Koyu gri-mavi */
+  border-left-color: #4DA8FF; /* Mavi */
+  color: #E0E0E0; /* Açık gri metin */
 }
 
+/* Uyarı (Warning) */
 .box-warning {
-  background-color: #fdf5d4;
-  border-left-color: #f1c40f;
+  background-color: #3A3217; /* Koyu sarımsı kahverengi */
+  border-left-color: #FFB600; /* Turuncu kenarlık */
+  color: #FFD166; /* Sarı metin */
 }
 
+/* Hata (Error) */
 .box-error {
-  background-color: #f4dddb;
-  border-left-color: #c0392b;
+  background-color: #3A1E1E; /* Koyu kırmızımsı */
+  border-left-color: #D47D7D; /* Açık kırmızı kenarlık */
+  color: #E06C75; /* Açık kırmızı metin */
 }
 
+/* Başarı (Success) */
 .box-success {
-  background-color: #98FB98;
-  border-left-color: #3CB371;
+  background-color: #1E4620; /* Koyu yeşil */
+  border-left-color: #6DD17A; /* Açık yeşil kenarlık */
+  color: #A3E635; /* Açık yeşil metin */
 }
 
 /* --- Misc blog post styles --- */
