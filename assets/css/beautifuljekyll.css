@@ -235,11 +235,11 @@ img {
 .navbar-custom .navbar-nav .nav-link:hover {
   color: var(--hover-col);
 }
-#nav-search-link {
-  margin-left: -13px !important; /* İstediğiniz değeri ayarlayın */
+#nav-search-icon {
+  margin-left: 10px !important; /* İstediğiniz değeri ayarlayın */
 }
-.navbar-custom li.nav-item {
-  margin-left: -13px !important; /* İstediğiniz değeri ayarlayın */
+.navbar-custom #nav-search-link {
+  margin-left: 10px !important; /* İstenilen sola kaydırma değeri */
 }
 
 /* 🌟 Mobil İçin Navbar Optimizasyonu */
