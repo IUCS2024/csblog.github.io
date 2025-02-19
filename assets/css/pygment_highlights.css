@@ -18,8 +18,8 @@ pre .lineno {
   padding-right: 10px;
 }
 .language-plaintext.highlighter-rouge {
-  background: #1E1E1E !important; /* Daha koyu arka plan */
-  color: #E0E0E0 !important; /* Açık metin */
+  background: #E0E0E0 !important; /* Daha koyu arka plan */
+  color: #a60019 !important; /* Açık metin */
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #333333;
