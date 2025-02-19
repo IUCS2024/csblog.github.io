@@ -222,13 +222,13 @@ img {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
-  font-weight: 800;
+  font-weight: bold;
   color: var(--navbar-text-col);
 }
 .navbar-custom .navbar-nav .nav-link {
   padding-top: 0.3rem !important; /* Üst boşluğu azalt */
   padding-bottom: 0.3rem !important; /* Alt boşluğu azalt */
-  font-size: 0.85rem !important; /* Eğer yazı boyutu fazla büyükse küçült */
+  font-size: 1rem !important; /* Eğer yazı boyutu fazla büyükse küçült */
 }
 
 .navbar-toggler {
