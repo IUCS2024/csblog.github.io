@@ -254,6 +254,7 @@ img {
     padding: 0.675rem 0 0.675rem 1rem;
   }
 }
+ 
 /* -- Masaüstü (768px ve üstü) için "Hakkımızda" linki -- */
 @media (min-width: 768px) {
   .navbar-custom .navbar-nav .nav-link[href="/csblog.github.io/aboutme"] {
@@ -296,14 +297,7 @@ img {
         max-width: 90% !important; /* Dar ekranlarda düzgün hizalama */
         margin: 0 auto !important;
     }
-    .page-subheading {
-      font-size: 1.2rem; /* Yazı boyutunu hafif küçültür, ihtiyaca göre ayarlanabilir */
-      display: inline-block; /* Yazı etrafında arka plan oluşturmak için */
-      background-color: #ddd; /* Gri tonlu arka plan; isterseniz farklı bir ton kullanabilirsiniz */
-      padding: 0.3em 0.6em; /* Yazının etrafında boşluk bırakarak plate etkisi yaratır */
-      border-radius: 4px; /* Köşeleri yuvarlayarak daha yumuşak bir görünüm kazandırır */
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* İsteğe bağlı: hafif gölge efekti ekler */
-    }
+   
 
     .site-logo {
         max-width: 60px; /* Logo boyutunu küçült */
@@ -709,6 +703,11 @@ body {
     width: 100%;
     margin-bottom: 30px;
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.05); /* Mobilde kullanılan ton, isterseniz değiştirebilirsiniz */
+    border-radius: 10px;
+    padding: 20px;
+    /* İsteğe bağlı: hafif gölge ekleyerek derinlik katabilirsiniz */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   }
   .post-preview .post-image {
     float: right;
@@ -853,13 +852,20 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 1.6875rem;
+  font-size: 1.5rem; /* Orijinal 1.6875rem yerine hafif küçültüldü */
   line-height: 1.1;
-  display: block;
+  display: inline-block; /* Arka planın metni sarması için */
   font-family: var(--header-font);
   font-weight: 300;
   margin: 0.625rem 0 0;
+  
+  /* Plate efekti için eklemeler */
+  background-color: #ddd; /* Gri ton, isteğe bağlı olarak değiştirilebilir */
+  padding: 0.3em 0.6em;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .intro-header .post-heading .post-subheading {
   margin-bottom: 1.25rem;
 }
