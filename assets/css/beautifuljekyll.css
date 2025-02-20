@@ -860,7 +860,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   margin: 0.625rem 0 0;
   
   /* Plate efekti için eklemeler */
-  background-color: #ddd; /* Gri ton, isteğe bağlı olarak değiştirilebilir */
+  background-color: rgba(255, 255, 255, 0.05); /* Gri ton, isteğe bağlı olarak değiştirilebilir */
   padding: 0.3em 0.6em;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
