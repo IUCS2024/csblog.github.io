@@ -852,19 +852,19 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 1.5rem; /* Orijinal 1.6875rem yerine hafif küçültüldü */
+  font-size: 1.5rem; /* Boyut korunuyor */
   line-height: 1.1;
-  display: inline-block; /* Arka planın metni sarması için */
-  font-family: var(--header-font);
-  font-weight: 300;
+  display: inline-block;
+  font-family: 'Dancing Script', cursive; /* El yazısı benzeri bir font */
+  font-weight: 700; /* Daha kalın */
   margin: 0.625rem 0 0;
   
-  /* Plate efekti için eklemeler */
-  background-color: rgba(255, 255, 255, 0.05); /* Gri ton, isteğe bağlı olarak değiştirilebilir */
+  background-color: rgba(255, 255, 255, 0.05); /* İstenen arka plan tonu */
   padding: 0.3em 0.6em;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 
 .intro-header .post-heading .post-subheading {
   margin-bottom: 1.25rem;
