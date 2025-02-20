@@ -1,9 +1,3 @@
----
-layout: page
-title: Hakkımızda
-subtitle: İstanbul Üniversitesi Fen Fakültesi Bilgisayar Bilimleri Blogu
----
-
 ### **Biz Kimiz?**
 İstanbul Üniversitesi Fen Fakültesi **Bilgisayar Bilimleri Bölümü** öğrencileri olarak teknoloji, yazılım geliştirme, veri bilimi, yapay zeka ve bilgisayar bilimleriyle ilgili konularda içerikler üretiyoruz. Amacımız, **bilgi paylaşımını teşvik etmek, deneyimlerimizi aktarmak ve birlikte öğrenmek.**  
 
