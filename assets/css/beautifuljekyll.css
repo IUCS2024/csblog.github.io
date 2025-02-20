@@ -270,6 +270,16 @@ img {
     margin-left: 0 !important;   /* Negatif margin'i kaldır */
     font-weight: 600;           /* Diğer linklerle aynı ya da isteğe göre */
   }
+  h1, h2, h3 {
+        margin-bottom: 15px; /* Başlıkların altında boşluk bırak */
+    }
+    p {
+        line-height: 1.6; /* Daha rahat okunabilirlik için satır aralığını artır */
+        margin-bottom: 10px;
+    }
+    .post-excerpt {
+        font-size: 16px; /* Yazıların önizlemesini biraz küçült */
+    }
 }
 /* 🌟 Navbar Menü Açıldığında Arka Plan Efekti */
 .navbar-custom .navbar-toggler[aria-expanded="true"] {
