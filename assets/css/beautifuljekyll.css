@@ -563,39 +563,45 @@ footer .footer-custom-content {
 }
 
 /* --- Post preview (feed) --- */
-
-.posts-list {
-    margin: 0;
+/* Genel Stil Ayarları */
+body {
+  background-color: #e1e1e1; /* Arka plan rengi */
+  font-family: sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
+/* Posts Listesi */
+.posts-list {
+  margin: 0;
+}
+
+/* Post Preview Temel Ayarları */
 .post-preview {
   padding: 1.25rem 0;
   border-bottom: 1px solid #eee;
   overflow: hidden;
+  transition: box-shadow 0.3s ease;
 }
-
-@media (min-width: 768px) {
-  .post-preview {
-    padding: 2.1875rem 0;
-  }
+.post-preview:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-
 .post-preview:last-child {
   border-bottom: 0;
 }
 
+/* Bağlantılar ve Tipografi */
 .post-preview a {
   text-decoration: none;
   font-family: var(--header-font);
   color: var(--text-col);
 }
-
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
   color: var(--hover-col);
 }
-
 .post-preview .post-title {
   font-size: 1.875rem;
   margin-top: 0;
@@ -616,100 +622,93 @@ footer .footer-custom-content {
 .post-heading .post-meta {
   display: inline-block;
 }
+
+/* Mobil Stil (max-width: 768px) */
 @media (max-width: 768px) {
-    /* 📌 Post Meta Bilgileri (Tarih, Yazar) */
-    .post-heading .post-meta {
-        display: block;
-        margin-bottom: 5px; /* Fazla boşluğu kaldır, daha kompakt yap */
-        font-size: 14px; /* Küçük ekranlarda daha okunaklı hale getir */
-    }
+  /* Post Meta Bilgileri */
+  .post-heading .post-meta {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
 
-    /* 📌 Post Başlıkları ve İçeriği */
-    .post-preview {
-        width: 100%;
-        padding: 15px; /* Sağdan soldan boşluk ekleyerek sıkışmayı önle */
-        margin-bottom: 20px; /* Postlar arasında daha fazla boşluk bırak */
-        background-color: rgba(255, 255, 255, 0.05); /* Hafif saydam arka plan */
-        border-radius: 10px; /* Yuvarlak köşeler */
-    }
+  /* Post Container ve Tipografi */
+  .post-preview {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+  }
+  .post-preview h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .post-preview p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
 
-    .post-preview h2 {
-        font-size: 22px; /* Başlığı biraz küçült */
-        margin-bottom: 8px; /* Başlık ile içerik arasında mesafe */
-    }
+  /* Post Görselleri */
+  .post-preview .post-image {
+    float: none;
+    display: block;
+    margin: 10px auto;
+    height: auto;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 8px;
+  }
+  .post-preview .post-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
 
-    .post-preview p {
-        font-size: 16px;
-        line-height: 1.6;
-        margin-bottom: 10px;
-    }
-
-    /* 📌 Post Görselleri */
-    .post-preview .post-image {
-        float: none; /* Mobilde sağa yaslanmayı kaldır */
-        display: block;
-        margin: 10px auto; /* Görselleri ortala */
-        height: auto;
-        width: 100%;
-        max-width: 250px; /* Mobilde büyük olmasını engelle */
-        border-radius: 8px; /* Hafif yuvarlak köşeler */
-    }
-
-    .post-preview .post-image img {
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: cover; /* Görsellerin doğru orantılı görünmesini sağlar */
-    }
-
-    /* 📌 Küçük Ekranlarda Daha Küçük Görsel */
-    @media (max-width: 500px) {
-        .post-preview .post-image {
-            display: block;
-            max-width: 200px;
-        }
-    }
-
-    /* 📌 Daha Fazla Oku Butonu */
-    .post-preview .post-read-more {
-        font-weight: 700;
-        text-transform: uppercase;
-        font-size: 14px;
-        display: block;
-        margin-top: 10px;
-    }
+  /* Daha Fazla Oku Butonu */
+  .post-preview .post-read-more {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+  }
 }
 
-/* ---------------------------- */
-/* 🖥️ Masaüstü İçin Daha Düzenli Görünüm */
-/* ---------------------------- */
+/* Ekstra Küçük Ekranlar (max-width: 500px) */
+@media (max-width: 500px) {
+  .post-preview .post-image {
+    max-width: 200px;
+  }
+}
 
+/* Masaüstü Stil (min-width: 769px) */
 @media (min-width: 769px) {
-    .post-preview {
-        width: 100%;
-        margin-bottom: 30px;
-        padding: 20px;
-    }
-
-    .post-preview .post-image {
-        float: right;
-        margin-left: 15px;
-        height: 150px;
-        width: 150px;
-        border-radius: 10px;
-    }
-
-    .post-preview .post-image img {
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: cover;
-    }
-
-    .post-preview .post-read-more {
-        font-size: 16px;
-        font-weight: 800;
-    }
-   .post-preview .post-title {
+  .post-preview {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  .post-preview .post-image {
+    float: right;
+    margin-left: 15px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+  }
+  .post-preview .post-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .post-preview .post-read-more {
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .post-preview .post-title {
     font-size: 2.25rem;
+  }
 }
 
 
