@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url("pygment_highlights.css");
 
 :root {
@@ -855,7 +855,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   font-size: 1.5rem; /* Boyut korunuyor */
   line-height: 1.1;
   display: inline-block;
-  font-family: 'Dancing Script', cursive; /* El yazısı benzeri bir font */
+  font-family: 'Montserrat', sans-serif;/* El yazısı benzeri bir font */
   font-weight: 700; /* Daha kalın */
   margin: 0.625rem 0 0;
   
