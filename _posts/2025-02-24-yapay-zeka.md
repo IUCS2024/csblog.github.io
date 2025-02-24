@@ -2,9 +2,9 @@
 layout: post
 title: "Makine Öğrenmesi İçin Teorik Rehber"
 subtitle: "Yeni Başlayanlar İçin Makine Öğrenmesi"
-cover-img: /assets/img/yapay-zeka-cover.jpg
-thumbnail-img: /assets/img/yapay-zeka-share.jpg
-share-img: /assets/img/yapay-zeka-share.jpg
+cover-img: /assets/img/yapay-zeka-cover.webp
+thumbnail-img: /assets/img/yapay-zeka-share.webp
+share-img: /assets/img/yapay-zeka-share.webp
 tags: [makine öğrenmesi, makine, yazılım, python, ai]
 author: Tunahan Yardımcı
 date: 2025-02-24 12:01
@@ -78,7 +78,7 @@ Model parametreleri:
 Temel kavramlar:
 - **Label:** Veri etiketleri (örn. ticket bilgisi)
 - **Feature:** Girdi özellikleri
-- **Model:** \( x + f(x) + y \)
+- **Model:** $ x + f(x) + y $
 - **Doğrulama:** Model performansının ölçülmesi
 - **Sınıflandırma:** Doğru etiket tahmini
 - **Regresyon:** Sayısal çıktı tahmini (örn. ev fiyat tahmini)
@@ -138,18 +138,18 @@ Veri setleri genellikle eğitim, doğrulama ve test olarak bölünür.
 
 **Model Türleri:**
 
-- **Basit Lineer Regresyon:** \( y = ax + b \)
-- **Çoklu Lineer Regresyon:** \( y = b_0 + b_1x_1 + b_2x_2 + \dots \)
-- **Polinom Regresyon:** \( y = b_0 + b_1x + b_2x^2 + \dots \)
+- **Basit Lineer Regresyon:** $ y = ax + b $
+- **Çoklu Lineer Regresyon:** $ y = b_0 + b_1x_1 + b_2x_2 + \dots $
+- **Polinom Regresyon:** $ y = b_0 + b_1x + b_2x^2 + \dots $
 
 **Örnek Hesaplama:**
 
-- \( x \) değerleri: 1, 2, 3, 4, 5
-- \( y \) değerleri: 1.2, 1.8, 2.6, 3.2, 3.8
+- $ x $ değerleri: 1, 2, 3, 4, 5
+- $ y $ değerleri: 1.2, 1.8, 2.6, 3.2, 3.8
 - Hesaplanan katsayılar:
-  - \( a \approx 0.66 \)
-  - \( b \approx 0.54 \)
-- Model: \( y = 0.66x + 0.54 \)
+  - $ a \approx 0.66 $
+  - $ b \approx 0.54 $
+- Model: $ y = 0.66x + 0.54 $
 
 Avantaj: Basit, eğitim süresi kısa, yorumlanabilir.
 Dezavantaj: Doğrusal olmayan ilişkilerde yetersiz kalır.
@@ -181,7 +181,7 @@ Dezavantaj: Doğrusal olmayan ilişkilerde yetersiz kalır.
 
 **Güncelleme Formülü:**
 
-\( Q(s,a) = Q(s,a) + \alpha \, [R + \gamma \max_{a'} Q(s',a') - Q(s,a)] \)
+$ Q(s,a) = Q(s,a) + \alpha \, [R + \gamma \max_{a'} Q(s',a') - Q(s,a)] $
 
 ---
 
