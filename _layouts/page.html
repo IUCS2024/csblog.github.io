@@ -1,6 +1,18 @@
 ---
 layout: base
 ---
+<!-- _post.html veya post sayfasının başına inline CSS ekleyebilirsiniz -->
+<head>
+  <style>
+    @media (max-width: 1199px) {
+      .navbar-custom .navbar-toggler {
+        margin-right: 1rem;  /* Sağdan boşluk bırak */
+        padding: 0.25rem 0.75rem;  /* Butonun boyutları */
+        font-size: 1.25rem;  /* Yazı boyutunu ayarla */
+      }
+    }
+  </style>
+</head>
 
 {% include header.html type="page" %}
 
