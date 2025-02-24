@@ -403,6 +403,17 @@ img {
     border-top-width: 1px;
   }
 }
+@media (max-width: 1199px) {
+  .navbar-custom .navbar-toggler {
+    margin-right: 1rem; /* Sağ boşluk bırak */
+    padding: 0.25rem 0.75rem; /* Butonun boyutlarını ayarla */
+    font-size: 1.25rem; /* Yazı boyutunu ayarla */
+    position: relative; /* Pozisyonu belirle */
+  }
+  .navbar-custom .navbar-collapse {
+    margin: 0 -1rem; /* Collapse alanının sağ ve sol marginlerini ayarla */
+  }
+}
 
 @media (max-width: 1199px) {
   .navbar-custom .navbar-collapse {
