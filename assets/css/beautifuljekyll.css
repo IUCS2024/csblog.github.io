@@ -835,7 +835,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .intro-header.big-img .post-heading {
   background: rgba(0, 0, 0, 0.6);
   padding: 1rem 2rem;
-  border-radius: 200px; /* Daha oval bir görünüm için */
+  border-radius: 75px; /* Daha oval bir görünüm için */
   display: inline-block; /* Sadece yazıyı saran bir kutu oluşturur */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Hafif bir gölge ekler */
 }
