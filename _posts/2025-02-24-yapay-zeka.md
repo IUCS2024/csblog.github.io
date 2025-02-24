@@ -1,4 +1,4 @@
--------------------------------------------------------------------
+---
 layout: post
 title: "Makine Öğrenmesi İçin Teorik Rehber"
 subtitle: "Yeni Başlayanlar İçin Makine Öğrenmesi"
@@ -8,7 +8,7 @@ share-img: /assets/img/makine-ogrenmesi.jpg
 tags: [makine öğrenmesi, makine, yazılım, python, ai]
 author: Tunahan Yardımcı
 date: 2025-02-24 12:01
--------------------------------------------------------------------
+---
 
 # Makine Öğrenmesi Rehberi
 
