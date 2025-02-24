@@ -832,9 +832,14 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   -moz-transition: opacity 1s linear;
   transition: opacity 1s linear;
 }
-.intro-header .page-heading {
-  text-align: center;
+.intro-header.big-img .post-heading {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Hafif bir gölge ekler */
 }
+
+
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
   padding: 6.25rem 0;
