@@ -152,6 +152,7 @@ img {
 
 .navbar-custom {
   background-color: var(--navbar-col);
+  height: auto;
   border-bottom: 1px solid var(--navbar-border-col);
   font-family: var(--header-font);
   {% if site.navbar-img %}
@@ -174,9 +175,9 @@ img {
 
 /* 🌟 Navbar LOGO (IUCS Blog) */
 .navbar-custom .navbar-brand {
-  font-size: 2rem; /* Makul büyüklükte logo yazısı */
+  font-size: 1.5rem; /* Makul büyüklükte logo yazısı */
   font-weight: bold;
-  padding: 0.4rem 1rem; /* Üst-alt boşluk azaltıldı */
+  padding: 0.25rem 1rem; /* Üst-alt boşluk azaltıldı */
   margin-left: 6px; /* Hafif sağa çek */
   transform: translateX(5px); /* Biraz sağa kaydır */
 }
@@ -287,6 +288,33 @@ img {
 }
 /* 🌟 Daha Küçük Ekranlar İçin Özelleştirme (767px ve altı) */
 @media (max-width: 767px) {
+  .navbar-custom {
+    padding: 0.5rem; /* Navbar'ın padding'ini ayarlayın */
+  }
+  .navbar-custom .navbar-collapse {
+    margin: 0;
+  }
+   /* Buton boyutları için düzenlemeler */
+  .navbar-custom .navbar-toggler {
+    margin-right: 1rem;
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+  }
+
+  /* Menü linklerinin uyumlu görünmesi */
+  .navbar-custom .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  .site-logo {
+    max-width: 50px;
+    margin-bottom: 0;
+  }
+
+  .navbar-custom .navbar-brand {
+    font-size: 1.25rem; /* Logo boyutunu küçült */
+  }
+}
+
   /* Sayfa başlıkları ve içerik düzenlemeleri */
   h1, h2, h3 {
     margin-bottom: 15px !important; /* Başlıkların altında boşluk bırak */
