@@ -834,10 +834,12 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header.big-img .post-heading {
   background: rgba(0, 0, 0, 0.6);
-  padding: 1rem;
-  border-radius: 8px;
+  padding: 1rem 2rem;
+  border-radius: 50px; /* Daha oval bir görünüm için */
+  display: inline-block; /* Sadece yazıyı saran bir kutu oluşturur */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Hafif bir gölge ekler */
 }
+
 
 
 .intro-header.big-img .page-heading,
@@ -856,7 +858,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 1.5rem; /* Boyut korunuyor */
+  fofnt-size: 1.5rem; /* Boyut korunuyor */
   line-height: 1.1;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;/* El yazısı benzeri bir font */
