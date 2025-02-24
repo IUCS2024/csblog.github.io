@@ -270,6 +270,9 @@ date_format: "%d %B %Y"
 # Output options (more information on Jekyll's site)
 timezone: "Europe/Istanbul"
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
 highlighter: rouge
 permalink: "/:year/:month/:day/:title/"
 paginate: 5
