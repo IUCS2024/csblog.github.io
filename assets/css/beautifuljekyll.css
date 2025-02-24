@@ -11,6 +11,12 @@ html, body {
   width: 100% !important; /* Navbar genişliğini %100 yaparak taşmayı engelle */
   max-width: 100% !important; /* Max-width'ü de %100 yaparak taşma önlenir */
 }
+.navbar-custom {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+  height: auto; /* Navbar yüksekliğini içerik boyutuna göre ayarlayın */
+}
+
 
 :root {
   /* config file CSS variables */
