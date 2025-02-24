@@ -3,6 +3,14 @@ layout: null
 ---
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url("pygment_highlights.css");
+html, body {
+  overflow-x: hidden !important; /* Yatay kaymayı engelle */
+  width: 100% !important;
+}
+.navbar-custom {
+  width: 100% !important; /* Navbar genişliğini %100 yaparak taşmayı engelle */
+  max-width: 100% !important; /* Max-width'ü de %100 yaparak taşma önlenir */
+}
 
 :root {
   /* config file CSS variables */
