@@ -33,10 +33,13 @@
             {% endif %}
           {% endif %}
           
-          {% if include.type == "post" %} 
-            {% if page.author %}
-              <strong>{{ page.author | strip_html }}</strong> tarafından<br>
-            {% endif%}
+            {% if include.type == "post" %} 
+              {% if page.author %}
+              <div class="author-info">
+                <strong>{{ page.author | strip_html }}</strong> tarafından
+              </div>
+            {% endif %}
+
             <span class="post-meta">{{ page.date | date: date_format }} tarihinde paylaşıldı</span>
             {% if page.last-updated %}
               <span class="post-meta">
