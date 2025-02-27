@@ -12,8 +12,7 @@ date: 2025-02-24 12:01
 
 # Makine Öğrenmesi Rehberi
 
-Bu doküman, makine öğrenmesinin temel kavramlarını, algoritmalarını ve yöntemlerini
-kapsamlı bir biçimde ele almaktadır. Aşağıda, çeşitli makine öğrenmesi konularını detaylı
+Bu doküman, web sitesinin testi amacıyla LLM tarafindan yazılmıştır. Aşağıda, çeşitli makine öğrenmesi konularını detaylı
 biçimde inceleyebilirsiniz.
 
 ---
