@@ -10,7 +10,6 @@ author: Tunahan Yardımcı
 date: 2025-03-1 15:55
 ---
 
-####################################################################################################
 # Giriş
 
 Bu dosya, Keras API’lerini yeni başlayanlar için son derece detaylı ve açıklayıcı bir şekilde ele almaktadır.
@@ -20,8 +19,7 @@ Keras, derin öğrenme modelleri oluşturmak için kullanılan yüksek seviyeli 
 TensorFlow gibi arka uçlarla (backend) çalışarak sinir ağları, optimizasyon algoritmaları ve veri işleme fonksiyonları sunar.
 Bu rehberde; model tanımlama, eğitim, katmanlar, callback’ler, optimizasyon yöntemleri, metrikler, veri yükleme, 
 karışık hassasiyet (mixed precision) ve daha pek çok konu detaylı olarak ele alınacaktır.
-
-####################################################################################################
+---
 # 1. Model ve Sequential Sınıfları
 
 ## 1.1 Model Sınıfı
