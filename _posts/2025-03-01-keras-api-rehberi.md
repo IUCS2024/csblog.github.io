@@ -53,7 +53,7 @@ Sequential sınıfı, katmanların birbirine sıralı bir şekilde eklenmesini s
 - Giriş katmanı, bir veya daha fazla gizli katman ve çıkış katmanı ekleyerek basit bir ileri yayılım (feedforward) ağı oluşturabilirsiniz.
 - Böylece, temel sınıflandırma veya regresyon problemleri kolayca çözülebilir.
 
-####################################################################################################
+---
 # 2. Model Training API
 
 Model Training API, modelinizin nasıl eğitileceğini, doğrulanacağını ve test edileceğini belirler.
@@ -78,7 +78,7 @@ Bu süreçte kullanılan parametreler şunlardır:
   - Modelin hangi optimizer, loss fonksiyonu ve metriklerle eğitileceğini belirler.
   - Bu metot, modelin eğitim sürecinin başlamasından önce mutlaka çağrılmalıdır.
 
-####################################################################################################
+---
 # 3. Saving (Kaydetme) API
 
 Eğitim tamamlandıktan sonra, modelin ağırlıklarını ve yapısını kaydetmek önemlidir.
@@ -190,7 +190,7 @@ Her bir katman, veriyi alır, işler ve bir sonraki katmana aktarır.
   - Farklı katmanlardan gelen verileri birleştirmeyi sağlar.
   - Bu yapı, çoklu giriş veya dallanmış ağ yapılarında kullanılır.
 
-####################################################################################################
+---
 # 5. Callbacks API
 
 Callbacks, model eğitimi sırasında belirli olaylar gerçekleştiğinde otomatik olarak tetiklenen fonksiyonlardır.
@@ -267,7 +267,7 @@ Eğitim sürecinde çeşitli aksiyonları (örneğin, kontrol noktası oluşturm
   - Model ağırlıklarının üssel hareketli ortalamasını (exponential moving average) kullanarak, eğitim sonrası daha stabil sonuçlar elde etmeyi amaçlar.
   - Detayları henüz tam olarak netleşmemiş olsa da, bazı uygulamalarda model performansını artırmak için kullanılmaktadır.
 
-####################################################################################################
+---
 # 6. Ops API
 
 Ops API, Keras’ın temel matematiksel işlemleri ve lineer cebir fonksiyonlarını içerir.
@@ -280,7 +280,7 @@ Bu API sayesinde, NumPy tabanlı işlemler TensorFlow gibi backend’ler üzerin
 
 Bu sayede, karmaşık hesaplamalar daha verimli bir şekilde yapılabilir.
 
-####################################################################################################
+---
 # 7. Optimizers (Optimizasyon Yöntemleri)
 
 Optimizers, modelin ağırlıklarını güncelleyen algoritmalardır.
@@ -384,7 +384,7 @@ Aşağıda, en sık kullanılan optimizasyon algoritmaları detaylı olarak aç�
 - **Detaylar:**
   - Özellikle düşük değerli (float16 gibi) veri tiplerinde kullanılarak eğitim stabilitesini artırır.
 
-####################################################################################################
+---
 # 8. Metrics (Başarı Ölçümleri)
 
 Metrikler, modelin eğitim ve test performansını ölçmek için kullanılır.
@@ -440,7 +440,7 @@ Doğru metriklerin seçimi, modelin hangi alanlarda başarılı ya da başarıs�
   - Birden fazla metriğin birleşimi veya indirgenmesi için kullanılan yardımcı araçlardır.
   - Karmaşık metrik hesaplamalarında, tekil bir metrik elde etmek için kullanılır.
 
-####################################################################################################
+---
 # 9. Available Losses (Kayıp Fonksiyonları)
 
 Loss fonksiyonları, modelin tahminleri ile gerçek değerler arasındaki farkı ölçerek modelin “yanlış” yaptığı miktarı belirler.
@@ -466,7 +466,7 @@ Loss fonksiyonları, modelin tahminleri ile gerçek değerler arasındaki farkı
 - **Detaylar:**
   - Destek Vektör Makineleri (SVM) gibi algoritmalarda tercih edilir.
 
-####################################################################################################
+---
 # 10. Data Loading (Veri Yükleme)
 
 Veri setlerinin, özellikle resim gibi büyük dosya gruplarının güvenli ve düzenli bir şekilde yüklenmesini sağlar.
@@ -492,7 +492,7 @@ Mixed precision, model eğitiminde kullanılan veri tiplerini optimize ederek he
 - Bellek kullanımında ciddi oranda tasarruf.
 - Büyük modellerin daha düşük donanım gereksinimleriyle eğitilebilmesi.
 
-####################################################################################################
+---
 # 12. RNG API (Random Number Generator - Rastgele Sayı Üreteci)
 
 RNG API, modelinizdeki rastgelelik işlemlerini yönetir.
@@ -503,7 +503,7 @@ RNG API, modelinizdeki rastgelelik işlemlerini yönetir.
 
 Bu, deneylerin güvenilirliğini ve tekrarlanabilirliğini artırır.
 
-####################################################################################################
+---
 # 13. Utilities (Yardımcı Araçlar)
 
 Keras, model ve veri işleme süreçlerini kolaylaştıran birçok yardımcı araç sunar.
@@ -526,7 +526,7 @@ Keras, model ve veri işleme süreçlerini kolaylaştıran birçok yardımcı ar
   - Çok boyutlu dizi (tensor) işlemlerinde yardımcı fonksiyonlar sunar.
   - Tensor dönüşümleri, şekil değiştirme (reshaping) ve hesaplama işlemleri burada ele alınır.
 
-####################################################################################################
+---
 # 14. KerasTuner
 
 KerasTuner, modelinizin hiperparametrelerini otomatik olarak aramak ve optimize etmek için kullanılan gelişmiş bir araçtır.
@@ -568,7 +568,7 @@ KerasTuner, modelinizin hiperparametrelerini otomatik olarak aramak ve optimize 
   - Sırasıyla bilgisayarlı görü (image processing) ve doğal dil işleme (NLP) alanları için optimize edilmiş Keras API'leridir.
   - Bu alanlardaki modellerin, veri işleme ve eğitim süreçlerinin optimize edilmesini sağlar.
 
-####################################################################################################
+---
 # 15. Popüler Modeller ve Mimari Örnekleri
 
 Keras ile geliştirilen ve yaygın olarak kullanılan bazı popüler derin öğrenme modelleri aşağıda detaylı olarak açıklanmıştır.
@@ -645,7 +645,7 @@ Keras ile geliştirilen ve yaygın olarak kullanılan bazı popüler derin öğr
   - Hesaplama maliyetini düşürürken, modelin derinliğini ve genişliğini optimize eder.
   - Inception mimarisinin, ResNet ile birleştirilmiş versiyonları da mevcuttur.
 
-####################################################################################################
+---
 # Sonuç ve Ek Bilgiler
 
 Bu dosya, Keras API’lerinin tüm temel ve ileri düzey bileşenlerini yeni başlayanların anlayabileceği şekilde açıklamaya yönelik olarak hazırlanmıştır.
@@ -675,4 +675,4 @@ Bu rehberi okuduktan sonra:
 
 Öğrenme sürecinizde başarılar dileriz; unutmayın ki, her yeni bilgi, sizi daha ileriye taşıyan bir adımdır.
 
-####################################################################################################
+---
