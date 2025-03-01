@@ -89,7 +89,7 @@ Bu API sayesinde, eğitilmiş modeller daha sonra tekrar yüklenebilir ve kullan
 - Model üzerinde denemeler yaparken, en iyi performans gösteren hali kaydedilerek geri yüklenmesi.
 - Üretim ortamına geçişte, modeli yeniden eğitmeden doğrudan kullanılabilir hale getirmek.
 
-####################################################################################################
+---
 # 4. Layers (Katmanlar) API
 
 Keras’ın temel taşlarından biri olan katmanlar, modelin yapı taşlarını oluşturur.
@@ -478,7 +478,7 @@ Veri setlerinin, özellikle resim gibi büyük dosya gruplarının güvenli ve d
 
 Bu özellikler, veri setlerinin hatasız ve verimli bir şekilde modele sunulmasını sağlar.
 
-####################################################################################################
+---
 # 11. Mixed Precision (Karışık Hassasiyet)
 
 Mixed precision, model eğitiminde kullanılan veri tiplerini optimize ederek hem bellek tasarrufu hem de hız artışı sağlar.
