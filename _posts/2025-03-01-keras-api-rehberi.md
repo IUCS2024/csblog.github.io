@@ -15,8 +15,6 @@ date: 2025-03-1 15:55
 
 Bu dosya, Keras API’lerini yeni başlayanlar için son derece detaylı ve açıklayıcı bir şekilde ele almaktadır.
 Her bir terim, fonksiyon ve konsept, basitten ileri düzeye kadar açıklanacak ve örneklerle desteklenecektir.
-Amaç, Keras dokümantasyonundaki karmaşık terimleri, sanki Python kodu yorum satırlarıymış gibi açıklamaktır.
-Bu sayede, hata (bug) oluşma riskini en aza indirgemek ve okuyucunun rahatça takip edebilmesini sağlamak hedeflenmiştir.
 
 Keras, derin öğrenme modelleri oluşturmak için kullanılan yüksek seviyeli bir API'dir.
 TensorFlow gibi arka uçlarla (backend) çalışarak sinir ağları, optimizasyon algoritmaları ve veri işleme fonksiyonları sunar.
