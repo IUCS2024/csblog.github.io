@@ -19,6 +19,7 @@ Keras, derin öğrenme modelleri oluşturmak için kullanılan yüksek seviyeli 
 TensorFlow gibi arka uçlarla (backend) çalışarak sinir ağları, optimizasyon algoritmaları ve veri işleme fonksiyonları sunar.
 Bu rehberde; model tanımlama, eğitim, katmanlar, callback’ler, optimizasyon yöntemleri, metrikler, veri yükleme, 
 karışık hassasiyet (mixed precision) ve daha pek çok konu detaylı olarak ele alınacaktır.
+
 ---
 # 1. Model ve Sequential Sınıfları
 
